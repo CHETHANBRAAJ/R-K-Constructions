@@ -1,0 +1,349 @@
+body {
+	margin: 0;
+}
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a {
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+*, *::before, *::after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+.center, .center-align {
+	text-align: center;
+}
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.cost-calculator-bg {
+	background-color: #f8f8f8 !important;
+	width: 100% !important;
+	padding: 50px !important;
+}
+.pdn-frm {
+	padding-bottom: 5px !important;
+}
+.sm-text {
+	font-size: 10px !important;
+	color: #b2b2b2 !important;
+}
+.des-clctr {
+	font-size: 12px;
+	color: #b2b2b2 !important;
+	margin-bottom: 10px !important;
+}
+.right {
+	float: right !important;
+}
+.pdn-mrg-mtd, .pdn-mtd {
+	padding: 0 !important;
+}
+.pdn-mrg-mtd {
+	margin: 0 !important;
+}
+#rateCardCalculator {
+	margin-bottom: 25px !important;
+}
+.irc-wrapper {
+	width: 100%;
+	background: #fff;
+}
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow-x: hidden !important;
+	width: 100% !important;
+}
+/* @media only screen and (min-width:1200px) */
+html {
+	font-size: 15px;
+}
+body, html {
+	-webkit-font-smoothing: antialiased !important;
+	font-family: Proximanova,sans-serif;
+}
+html {
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+html {
+	line-height: 1.5;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-weight: normal;
+	color: rgba(0, 0, 0, 0.87);
+}
+/* @media only screen and (min-width:0px) */
+html {
+	font-size: 14px;
+}
+/* @media only screen and (min-width:992px) */
+html {
+	font-size: 14.5px;
+}
+html {
+	font-weight: 400;
+}
+.cost-calculator-bg {
+	background-color: #f8f8f8 !important;
+	width: 100% !important;
+	padding: 50px !important;
+}
+.cost-calculator-bg {
+	background-color: #f8f8f8 !important;
+	width: 100% !important;
+	padding: 50px !important;
+}
+#calculatedCard {
+	margin-top: 25px !important;
+}
+.sm-text {
+	font-size: 10px !important;
+	color: #b2b2b2 !important;
+}
+.sm-text {
+	font-size: 10px !important;
+	color: #b2b2b2 !important;
+}
+.row .col {
+	float: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 .75rem;
+	min-height: 1px;
+}
+.row .col.s12 {
+	width: 100%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+.row .col.s3 {
+	width: 25%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+.calc-wrapper {
+	background: #d27867;
+	color: #fff !important;
+	width: 100%;
+	padding: 10px 20px;
+}
+.calc-wrapper {
+	background: #d27867;
+	color: #fff !important;
+	width: 100%;
+	padding: 10px 20px;
+}
+.calc-wrapper {
+	background: #d27867;
+	color: #fff !important;
+	width: 100%;
+	padding: 10px 20px;
+}
+.bdr-bttm {
+	border-bottom: 1px solid #cacaca;
+}
+.pdn-frm {
+	padding-bottom: 5px !important;
+}
+.pdn-frm {
+	padding-bottom: 5px !important;
+}
+.des-clctr {
+	font-size: 12px;
+	color: #b2b2b2 !important;
+	margin-bottom: 10px !important;
+}
+.des-clctr {
+	font-size: 12px;
+	color: #b2b2b2 !important;
+	margin-bottom: 10px !important;
+}
+.col .row {
+	margin-left: -0.75rem;
+	margin-right: -0.75rem;
+}
+.cal-rslt-scnd-wrp {
+	background-color: #fff !important;
+	padding: 10px !important;
+}
+.cal-rslt-scnd-wrp {
+	background-color: #fff !important;
+	padding: 10px !important;
+}
+.cal-rslt-scnd-wrp {
+	background-color: #fff !important;
+	padding: 10px !important;
+}
+.row .col.s6 {
+	width: 50%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+.build-up-st {
+	color: #b2b2b2;
+	font-size: 13px;
+}
+.reslt-hdr-sft {
+	color: #459acb !important;
+	font-size: 17px !important;
+	font-weight: 900 !important;
+	padding: 5px 0 0;
+}
+.reslt-hdr-sft {
+	color: #459acb !important;
+	font-size: 17px !important;
+	font-weight: 900 !important;
+	padding: 5px 0 0;
+}
+.reslt-hdr-sft {
+	color: #459acb !important;
+	font-size: 17px !important;
+	font-weight: 900 !important;
+	padding: 5px 0 0;
+}
+.row .col.s7 {
+	width: 58.33%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+.row .col.s5 {
+	width: 41.66%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+.reslt-hdr-ft {
+	color: #4b4949 !important;
+	font-size: 16px !important;
+}
+.reslt-hdr-ft {
+	color: #4b4949 !important;
+	font-size: 16px !important;
+}
+.reslt-hdr-ft {
+	color: #4b4949 !important;
+	font-size: 16px !important;
+}
+a {
+	color: #039be5;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	font-size: 4.2rem;
+	line-height: 110%;
+	margin: 2.8rem 0 1.68rem 0;
+}
+a, h1, h2, i, p {
+	-webkit-font-smoothing: antialiased !important;
+}
+.rate-card-std-pkg-btn-2-view-sub {
+	color: #fff !important;
+	font-size: 14px !important;
+	width: 100%;
+	text-align: center !important;
+	cursor: pointer !important;
+}
+.rate-card-std-pkg-btn-2-view-sub {
+	color: #fff !important;
+	font-size: 14px !important;
+	width: 100%;
+	text-align: center !important;
+	cursor: pointer !important;
+}
+.rate-card-std-pkg-btn-2-view-sub {
+	color: #fff !important;
+	font-size: 14px !important;
+	width: 100%;
+	text-align: center !important;
+	cursor: pointer !important;
+}
+.calc-wrapper-std-hdr {
+	color: #fff !important;
+	font-size: 18px;
+}
+.calc-wrapper-std-hdr, .rate-card-std-pkg-btn-2 {
+	width: 100% !important;
+	text-align: center !important;
+}
+.rate-card-std-pkg-btn-2 {
+	color: #ffd732 !important;
+}
+.calc-wrapper-std-hdr {
+	color: #fff !important;
+	font-size: 18px;
+}
+.calc-wrapper-std-hdr, .rate-card-std-pkg-btn-2 {
+	width: 100% !important;
+	text-align: center !important;
+}
+.rate-card-std-pkg-btn-2 {
+	color: #ffd732 !important;
+}
+.calc-wrapper-std-hdr {
+	color: #fff !important;
+	font-size: 18px;
+}
+.calc-wrapper-std-hdr, .rate-card-std-pkg-btn-2 {
+	width: 100% !important;
+	text-align: center !important;
+}
+.rate-card-std-pkg-btn-2 {
+	color: #ffd732 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.3;
+}
+.rate-hddr-3 {
+	font-size: 22px !important;
+	color: #333 !important;
+	font-weight: 700 !important;
+	width: 100% !important;
+	text-align: center !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	margin-bottom: 10px !important;
+	margin-top: 0px !important;
+}
+.rate-hddr-3 {
+	font-size: 22px !important;
+	color: #333 !important;
+	font-weight: 700 !important;
+	width: 100% !important;
+	text-align: center !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	margin-bottom: 10px !important;
+	margin-top: 0px !important;
+}
+.rate-hddr-3 {
+	font-size: 22px !important;
+	color: #333 !important;
+	font-weight: 700 !important;
+	width: 100% !important;
+	text-align: center !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	margin-bottom: 10px !important;
+	margin-top: 0px !important;
+}

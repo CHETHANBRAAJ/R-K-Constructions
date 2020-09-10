@@ -1,0 +1,351 @@
+body {
+	margin: 0;
+}
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+button, html [type='button'], [type='reset'], [type='submit'] {
+	-webkit-appearance: button;
+}
+button, input {
+	overflow: visible;
+}
+img {
+	border-style: none;
+}
+*, *::before, *::after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+button, input, optgroup, select, textarea {
+	font-family: sans-serif;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+button, select {
+	text-transform: none;
+}
+#rateCardCalculator {
+	margin-bottom: 25px !important;
+}
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.mrg-top {
+	margin-top: 10px !important;
+}
+.left-align {
+	text-align: left;
+}
+.input-field {
+	position: relative;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.input-field {
+	margin-top: 10px !important;
+}
+.pdn-mrg-mtd, .pdn-mtd {
+	padding: 0 !important;
+}
+.pdn-mrg-mtd {
+	margin: 0 !important;
+}
+.irc-wrapper {
+	width: 100%;
+	background: #fff;
+}
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow-x: hidden !important;
+	width: 100% !important;
+}
+/* @media only screen and (min-width:0px) */
+html {
+	font-size: 14px;
+}
+body, html {
+	-webkit-font-smoothing: antialiased !important;
+	font-family: Proximanova,sans-serif;
+}
+html {
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+html {
+	line-height: 1.5;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-weight: normal;
+	color: rgba(0, 0, 0, 0.87);
+}
+html {
+	font-weight: 400;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 90%;
+}
+/* @media only screen and (min-width:601px) */
+.container {
+	width: 85%;
+}
+.rate-calculator-wrpr {
+	width: 450px;
+	margin: auto !important;
+	padding: 30px !important;
+	text-align: center;
+	background-color: #f8f8f8 !important;
+	margin-top: 20px !important;
+}
+.cal-header {
+	width: 80% !important;
+	margin: auto !important;
+}
+.rd-btn-container {
+	width: 60% !important;
+	margin: auto !important;
+	margin-top: 30px !important;
+}
+.pdn-btm-top {
+	padding: 15px 0 !important;
+}
+.rate-input-label {
+	padding-top: 2px !important;
+}
+.cal-hdr-txt {
+	color: #459acb;
+	font-size: 20px;
+	font-weight: 700 !important;
+}
+.row .col {
+	float: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 .75rem;
+	min-height: 1px;
+}
+.row .col.s12 {
+	width: 100%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+button, input, optgroup, select, textarea {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-small, .btn-floating, .dropdown-content, .collapsible, .sidenav {
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12), 0px 1px 5px 0px rgba(0,0,0,0.2);
+}
+.btn, .btn-large, .btn-small, .btn-flat {
+	border: none;
+	border-radius: 2px;
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 16px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	-webkit-tap-highlight-color: transparent;
+}
+.btn, .btn-large, .btn-small, .btn-floating, .btn-large, .btn-small, .btn-flat {
+	font-size: 14px;
+	outline: 0;
+}
+.btn, .btn-large, .btn-small {
+	text-decoration: none;
+	color: #fff;
+	background-color: #26a69a;
+	text-align: center;
+	letter-spacing: 0.5px;
+	-webkit-transition: background-color .2s ease-out;
+	transition: background-color .2s ease-out;
+	cursor: pointer;
+}
+.waves-effect {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	overflow: hidden;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	vertical-align: middle;
+	z-index: 1;
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+.btn, .btn-floating, .btn-large, .btn-small, .card, .card-panel, .dropdown-content, .sidenav, .toast, .z-depth-1, nav {
+	-ms-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.12),0 -1px 3px 0 rgba(0,0,0,.2) !important;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.12),0 -1px 3px 0 rgba(0,0,0,.2) !important;
+	-o-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.12),0 -1px 3px 0 rgba(0,0,0,.2) !important;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12), 0px -1px 3px 0px rgba(0,0,0,0.2) !important;
+}
+.submit, .submit-rate-calc {
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1px;
+}
+.submit-rate-calc {
+	padding: 20px;
+	margin-top: 25px;
+	text-transform: none !important;
+}
+.submit-rate-calc, btn .submit-rate-calc:hover {
+	background-color: #79b552 !important;
+}
+.row .col.s6 {
+	width: 50%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+label {
+	font-size: 0.8rem;
+	color: #9e9e9e;
+}
+input {
+	font-size: 18px !important;
+	margin: 0 0 25px !important;
+}
+input {
+	font-size: 18px !important;
+	margin: 0 0 0px !important;
+}
+[type='checkbox'], [type='radio'] {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+}
+[type='checkbox']:not(:checked), [type='checkbox']:checked {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+[type='checkbox'] + span:not(.lever) {
+	position: relative;
+	padding-left: 35px;
+	cursor: pointer;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	font-size: 1rem;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+[type=checkbox] + span:not(.lever) {
+	color: #5a5a5a !important;
+}
+[type=checkbox] + span:not(.lever) {
+	color: #5a5a5a !important;
+}
+.row .col.s3 {
+	width: 25%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+.row .col.s7 {
+	width: 58.33%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+select {
+	display: none;
+}
+select {
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	height: 3rem;
+}
+select {
+	background-color: hsla(0, 0%, 100%, 0.9);
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	height: 2rem;
+}
+select {
+	background-color: hsla(0, 0%, 100%, 0.9);
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	height: 2rem;
+}
+select.browser-default {
+	display: block;
+}
+input:active, input:focus, input:visited {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+[type='radio']:not(:checked), [type='radio']:checked {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+[type='radio']:not(:checked) + span, [type='radio']:checked + span {
+	position: relative;
+	padding-left: 35px;
+	cursor: pointer;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	font-size: 1rem;
+	-webkit-transition: .28s ease;
+	transition: .28s ease;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.btn:active, .btn:focus, .btn:hover, [type=radio]:checked.with-gap + span::after, [type=radio]:checked + span::after {
+	background-color: #79b552 !important;
+}
+.btn:active, .btn:focus, .btn:hover, [type=radio]:checked.with-gap + span::after, [type=radio]:checked + span::after {
+	background-color: #79b552 !important;
+}
+.row .col.s1 {
+	width: 8.33%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+.row .col.s11 {
+	width: 91.66%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+.cal-icon-wrp {
+	width: 20px !important;
+}
+#button1{
+width: 300px;
+height: 40px;
+
+}
+#button2{
+width: 300px;
+height: 40px;
+}
